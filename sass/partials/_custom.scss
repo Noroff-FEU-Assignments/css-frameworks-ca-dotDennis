@@ -1,0 +1,24 @@
+$light: #efefef;
+$primary: #e92569;
+$gray: #767676;
+$black: #0A0A0A;
+$bg-gray: #e5e5e5;
+
+// bg-light better name?
+
+// background radial gradient #FFFFFF -> #EFEFEF, EFEFEF in centre
+
+$fonts: (
+  primary: (
+    "Open Sans",
+    sans-serif,
+  ),
+  secondary: (
+    "Archivo Narrow",
+    sans-serif,
+  ),
+);
+
+@function getFont($font) {
+  @return map-get($fonts, $font);
+}
