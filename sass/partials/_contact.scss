@@ -1,0 +1,53 @@
+.container--contact {
+  @extend .container;
+  margin-top: calc(75px + 3rem);
+}
+
+.contact__form {
+  background: $light;
+}
+
+.container--contact {
+  .list-group {
+    list-style: none;
+    .list-group-item a {
+      text-decoration: none;
+      color: $gray;
+      font-size: 16px;
+      i {
+        font-size: 25px;
+      }
+    }
+  }
+
+  .contact__location {
+    font-size: 16px;
+  }
+  p i {
+    font-size: 25px;
+  }
+}
+.contact__website {
+  position: relative;
+  &:before {
+    position: absolute;
+    content: "contact";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    background: $gray;
+  }
+}
+
+.contact__checkbox {
+  input {
+    background-color: $primary;
+    width: 34px;
+    height: 34px;
+  }
+  label {
+    font-size: 15px;
+    font-family: "Labo", sans-serif;
+  }
+}

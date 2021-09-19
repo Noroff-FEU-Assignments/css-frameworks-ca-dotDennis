@@ -2,19 +2,15 @@ $light: #efefef;
 $primary: #e92569;
 $gray: #767676;
 $black: #0a0a0a;
-$bg-gray: #e5e5e5;
 
-// bg-light better name
-
-// background radial gradient #FFFFFF -> #EFEFEF, EFEFEF in centre
 
 $fonts: (
   primary: (
-    "Open Sans",
+    "Lato",
     sans-serif,
   ),
-  secondary: (
-    "Archivo Narrow",
+  branding: (
+    "Playfair Display",
     sans-serif,
   ),
 );

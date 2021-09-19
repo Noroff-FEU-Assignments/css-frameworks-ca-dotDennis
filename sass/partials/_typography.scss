@@ -2,12 +2,24 @@ body {
   font-family: getFont(primary);
 }
 
-.navbar {
-  font-family: getFont(secondary);
+h1 {
+  color: $primary;
+  font-size: 34px;
+  font-family: getFont(branding);
 }
 
-// h1 {
-//   color: $primary;
-//   margin-top: 70px; // fixed height value on nav. Used to replicate the non-fixed nav in XD design.
-//   font-size: 34px;
-// }
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lato", sans-serif;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: $gray;
+}
