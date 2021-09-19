@@ -9259,6 +9259,13 @@ footer a:hover {
   font-size: 25px;
 }
 
+.container--contact .contact__submit {
+  width: 100%;
+  background: #767676;
+  color: white;
+  border: none;
+}
+
 .contact__website {
   position: relative;
 }

@@ -26,6 +26,12 @@
   p i {
     font-size: 25px;
   }
+  .contact__submit {
+    width: 100%;
+    background: $gray;
+    color: white;
+    border: none;
+  }
 }
 .contact__website {
   position: relative;
