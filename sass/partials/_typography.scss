@@ -1,0 +1,25 @@
+body {
+  font-family: getFont(primary);
+}
+
+h1 {
+  color: $primary;
+  font-size: 34px;
+  font-family: getFont(branding);
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lato", sans-serif;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: $gray;
+}

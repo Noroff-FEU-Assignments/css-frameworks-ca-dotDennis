@@ -1,0 +1,20 @@
+$light: #efefef;
+$primary: #e92569;
+$gray: #767676;
+$black: #0a0a0a;
+
+
+$fonts: (
+  primary: (
+    "Lato",
+    sans-serif,
+  ),
+  branding: (
+    "Playfair Display",
+    sans-serif,
+  ),
+);
+
+@function getFont($font) {
+  @return map-get($fonts, $font);
+}

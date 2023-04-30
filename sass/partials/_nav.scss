@@ -1,0 +1,66 @@
+.container--nav {
+  @extend .container-fluid;
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-light {
+  z-index: 10;
+  top: 0;
+  .input-group {
+    padding-left: 1.5rem;
+    @include media-breakpoint-up(lg) {
+      padding-left: 0;
+    }
+  }
+  .form-control {
+    border: none;
+    font-size: 15px;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .btn-primary:focus {
+    box-shadow: none;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+    color: $primary !important;
+    font-family: "Playfair Display", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+  }
+  .navbar-toggler {
+    border: none;
+    padding-right: 2rem;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .navbar-nav {
+    li {
+      text-align: left;
+      @include media-breakpoint-up(lg) {
+        margin: 0 0.5rem;
+      }
+    }
+    a.nav-link {
+      padding-left: 1.5rem;
+      border-radius: 0;
+      color: $black;
+      font-size: 16px;
+      @include media-breakpoint-up(lg) {
+        border-radius: 0.25rem;
+        padding: 0.2rem 1rem;
+      }
+      &:hover {
+        color: $black;
+        background-color: $white;
+      }
+      &.active {
+        color: $black;
+        background-color: $white;
+      }
+    }
+  }
+}
